@@ -12,4 +12,4 @@
 
 ## Preview
 
-![效果预览图](https://github.com/ireliaBR/fangdouyin/raw/master/Docs/preview.gif)
+![效果预览图](https://github.com/ireliaBR/BeautifulCamera/raw/master/Docs/preview.gif)
