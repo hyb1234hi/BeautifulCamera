@@ -1,6 +1,5 @@
 # BeautifulCamera
-抖音滑动效果
-通过使用3个视图复用实现无限滑动
+使用AVFoundation实现自定相机功能和使用GPUImage实现美颜功能
 
 ## Start
 
