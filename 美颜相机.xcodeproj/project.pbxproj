@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3C9083FF7622FBC92A300EC /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5257A70B04EEEAA0163EE25B /* Pods_____.framework */; };
+		FF5DA9EC206FA96C006BE380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DA9EB206FA96C006BE380 /* AppDelegate.m */; };
+		FF5DA9EF206FA96C006BE380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DA9EE206FA96C006BE380 /* ViewController.m */; };
+		FF5DA9F2206FA96C006BE380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5DA9F0206FA96C006BE380 /* Main.storyboard */; };
+		FF5DA9F4206FA96E006BE380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5DA9F3206FA96E006BE380 /* Assets.xcassets */; };
+		FF5DA9F7206FA96E006BE380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5DA9F5206FA96E006BE380 /* LaunchScreen.storyboard */; };
+		FF5DA9FA206FA96E006BE380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DA9F9206FA96E006BE380 /* main.m */; };
+		FF5DAA02206FABF1006BE380 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DAA01206FABF1006BE380 /* CaptureViewController.m */; };
+		FF5DAA05206FC918006BE380 /* GPUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DAA04206FC918006BE380 /* GPUViewController.m */; };
+		FF5DAA0B2070CA63006BE380 /* BeautifulView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DAA0A2070CA63006BE380 /* BeautifulView.m */; };
+		FF5DAA0E2070DD8B006BE380 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DAA0D2070DD8A006BE380 /* GPUImageBeautifyFilter.m */; };
+		FF5DAA112070E1FE006BE380 /* CameraShowAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DAA102070E1FE006BE380 /* CameraShowAnimate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24B24AFBC258F0E9F9A11908 /* Pods-美颜相机.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-美颜相机.debug.xcconfig"; path = "Pods/Target Support Files/Pods-美颜相机/Pods-美颜相机.debug.xcconfig"; sourceTree = "<group>"; };
+		5257A70B04EEEAA0163EE25B /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E219394B67E28FFB74E992CF /* Pods-美颜相机.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-美颜相机.release.xcconfig"; path = "Pods/Target Support Files/Pods-美颜相机/Pods-美颜相机.release.xcconfig"; sourceTree = "<group>"; };
+		FF5DA9E7206FA96C006BE380 /* 美颜相机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美颜相机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5DA9EA206FA96C006BE380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF5DA9EB206FA96C006BE380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF5DA9ED206FA96C006BE380 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF5DA9EE206FA96C006BE380 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF5DA9F1206FA96C006BE380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF5DA9F3206FA96E006BE380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5DA9F6206FA96E006BE380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF5DA9F8206FA96E006BE380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5DA9F9206FA96E006BE380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF5DAA00206FABF1006BE380 /* CaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		FF5DAA01206FABF1006BE380 /* CaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		FF5DAA03206FC918006BE380 /* GPUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUViewController.h; sourceTree = "<group>"; };
+		FF5DAA04206FC918006BE380 /* GPUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUViewController.m; sourceTree = "<group>"; };
+		FF5DAA092070CA63006BE380 /* BeautifulView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautifulView.h; sourceTree = "<group>"; };
+		FF5DAA0A2070CA63006BE380 /* BeautifulView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulView.m; sourceTree = "<group>"; };
+		FF5DAA0C2070DD8A006BE380 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		FF5DAA0D2070DD8A006BE380 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		FF5DAA0F2070E1FE006BE380 /* CameraShowAnimate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraShowAnimate.h; sourceTree = "<group>"; };
+		FF5DAA102070E1FE006BE380 /* CameraShowAnimate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraShowAnimate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF5DA9E4206FA96C006BE380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9083FF7622FBC92A300EC /* Pods_____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115EFB0253301C5360D9322E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24B24AFBC258F0E9F9A11908 /* Pods-美颜相机.debug.xcconfig */,
+				E219394B67E28FFB74E992CF /* Pods-美颜相机.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A178E9412FE7447680FC93E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5257A70B04EEEAA0163EE25B /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF5DA9DE206FA96C006BE380 = {
+			isa = PBXGroup;
+			children = (
+				FF5DA9E9206FA96C006BE380 /* 美颜相机 */,
+				FF5DA9E8206FA96C006BE380 /* Products */,
+				115EFB0253301C5360D9322E /* Pods */,
+				9A178E9412FE7447680FC93E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF5DA9E8206FA96C006BE380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5DA9E7206FA96C006BE380 /* 美颜相机.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5DA9E9206FA96C006BE380 /* 美颜相机 */ = {
+			isa = PBXGroup;
+			children = (
+				FF5DAA0C2070DD8A006BE380 /* GPUImageBeautifyFilter.h */,
+				FF5DAA0D2070DD8A006BE380 /* GPUImageBeautifyFilter.m */,
+				FF5DA9EA206FA96C006BE380 /* AppDelegate.h */,
+				FF5DA9EB206FA96C006BE380 /* AppDelegate.m */,
+				FF5DA9ED206FA96C006BE380 /* ViewController.h */,
+				FF5DA9EE206FA96C006BE380 /* ViewController.m */,
+				FF5DA9F0206FA96C006BE380 /* Main.storyboard */,
+				FF5DA9F3206FA96E006BE380 /* Assets.xcassets */,
+				FF5DA9F5206FA96E006BE380 /* LaunchScreen.storyboard */,
+				FF5DA9F8206FA96E006BE380 /* Info.plist */,
+				FF5DA9F9206FA96E006BE380 /* main.m */,
+				FF5DAA00206FABF1006BE380 /* CaptureViewController.h */,
+				FF5DAA01206FABF1006BE380 /* CaptureViewController.m */,
+				FF5DAA03206FC918006BE380 /* GPUViewController.h */,
+				FF5DAA04206FC918006BE380 /* GPUViewController.m */,
+				FF5DAA092070CA63006BE380 /* BeautifulView.h */,
+				FF5DAA0A2070CA63006BE380 /* BeautifulView.m */,
+				FF5DAA0F2070E1FE006BE380 /* CameraShowAnimate.h */,
+				FF5DAA102070E1FE006BE380 /* CameraShowAnimate.m */,
+			);
+			path = "美颜相机";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF5DA9E6206FA96C006BE380 /* 美颜相机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5DA9FD206FA96E006BE380 /* Build configuration list for PBXNativeTarget "美颜相机" */;
+			buildPhases = (
+				2C08D53F00E7E5468ECD477C /* [CP] Check Pods Manifest.lock */,
+				FF5DA9E3206FA96C006BE380 /* Sources */,
+				FF5DA9E4206FA96C006BE380 /* Frameworks */,
+				FF5DA9E5206FA96C006BE380 /* Resources */,
+				29249116B7163A146270FE6A /* [CP] Embed Pods Frameworks */,
+				777A869436E9774107FEC18C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "美颜相机";
+			productName = "美颜相机";
+			productReference = FF5DA9E7206FA96C006BE380 /* 美颜相机.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5DA9DF206FA96C006BE380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "正辰科技";
+				TargetAttributes = {
+					FF5DA9E6206FA96C006BE380 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF5DA9E2206FA96C006BE380 /* Build configuration list for PBXProject "美颜相机" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF5DA9DE206FA96C006BE380;
+			productRefGroup = FF5DA9E8206FA96C006BE380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF5DA9E6206FA96C006BE380 /* 美颜相机 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF5DA9E5206FA96C006BE380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5DA9F7206FA96E006BE380 /* LaunchScreen.storyboard in Resources */,
+				FF5DA9F4206FA96E006BE380 /* Assets.xcassets in Resources */,
+				FF5DA9F2206FA96C006BE380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29249116B7163A146270FE6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-美颜相机/Pods-美颜相机-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-美颜相机/Pods-美颜相机-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C08D53F00E7E5468ECD477C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-美颜相机-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		777A869436E9774107FEC18C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-美颜相机/Pods-美颜相机-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF5DA9E3206FA96C006BE380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5DAA0B2070CA63006BE380 /* BeautifulView.m in Sources */,
+				FF5DAA0E2070DD8B006BE380 /* GPUImageBeautifyFilter.m in Sources */,
+				FF5DA9EF206FA96C006BE380 /* ViewController.m in Sources */,
+				FF5DAA05206FC918006BE380 /* GPUViewController.m in Sources */,
+				FF5DAA02206FABF1006BE380 /* CaptureViewController.m in Sources */,
+				FF5DA9FA206FA96E006BE380 /* main.m in Sources */,
+				FF5DA9EC206FA96C006BE380 /* AppDelegate.m in Sources */,
+				FF5DAA112070E1FE006BE380 /* CameraShowAnimate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF5DA9F0206FA96C006BE380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5DA9F1206FA96C006BE380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF5DA9F5206FA96E006BE380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5DA9F6206FA96E006BE380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF5DA9FB206FA96E006BE380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF5DA9FC206FA96E006BE380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF5DA9FE206FA96E006BE380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B24AFBC258F0E9F9A11908 /* Pods-美颜相机.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53HAR28V3A;
+				INFOPLIST_FILE = "美颜相机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengchen.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF5DA9FF206FA96E006BE380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E219394B67E28FFB74E992CF /* Pods-美颜相机.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53HAR28V3A;
+				INFOPLIST_FILE = "美颜相机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengchen.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF5DA9E2206FA96C006BE380 /* Build configuration list for PBXProject "美颜相机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5DA9FB206FA96E006BE380 /* Debug */,
+				FF5DA9FC206FA96E006BE380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5DA9FD206FA96E006BE380 /* Build configuration list for PBXNativeTarget "美颜相机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5DA9FE206FA96E006BE380 /* Debug */,
+				FF5DA9FF206FA96E006BE380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5DA9DF206FA96C006BE380 /* Project object */;
+}
